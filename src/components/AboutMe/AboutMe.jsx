@@ -8,7 +8,7 @@ const AboutMe = () => {
             <div className={styles.info}>
                 <div className={styles.br}></div>
                 <h1>About me</h1>
-                <p>Hi! My name is Domenico Seminara, In 2021 I began to approach the world of the web and became more and more interested in front-end work. In 2022 I undertook a course of study with Edgemony to broaden my knowledge and my skills.</p>
+                <p>Hi! I am Domenico Seminara and I am 22 years old. I have always been interested in the world of pc and programming and in May 2022 I embarked on a programming course (Edgemony) studying and deepening [ HTML, CSS, JS, SCSS, BOOTSRAP, REACT, VUE ] currently constantly growing, keeping myself updated and studying new frameworks.</p>
                 <div className={styles.info_button}>
                     <button><a href={CV} download>Curriculum</a></button>
                 </div>
