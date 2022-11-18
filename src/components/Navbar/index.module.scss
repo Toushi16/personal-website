@@ -1,0 +1,68 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    height: 130px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+    z-index: 2;
+
+    a {
+        text-decoration: none;
+    }
+
+    .title {
+        text-align: center;
+        color:black;
+        
+        h1 {
+            text-decoration: none;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            padding-bottom: 5px;
+        }
+
+        h2 {
+            font-size: 1rem;
+            font-weight: 400;
+            letter-spacing: 1.5px;
+            text-transform: capitalize;
+        }
+    }
+
+    .nav_list {
+        ul {
+            display: flex;
+            gap: 30px;
+            list-style-type: none;
+        }
+
+        li {
+            color: #353535;
+            text-decoration: none;
+            letter-spacing: 1.5px;
+            text-transform: capitalize;
+            -webkit-transition: 0.85s;
+        }
+
+        li:hover {
+            color: gray;
+            cursor: pointer;
+        }
+
+        a {
+            color: #353535;
+            text-decoration: none;
+            letter-spacing: 1.5px;
+            -webkit-transition: 0.85s;
+        }
+
+        a:hover {
+            color: gray;
+        }
+    }
+}

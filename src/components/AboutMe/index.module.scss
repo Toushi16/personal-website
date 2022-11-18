@@ -1,0 +1,54 @@
+.about {
+    display: flex;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+
+    .info {
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        gap: 75px;
+        background-color: rgba($color: #FFFFFF, $alpha: 0.64);
+        padding: 20px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+
+        .br {
+            width: 43px;
+            height: 3px;
+            background-color: black;
+            margin-top: 130px;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+
+        p {
+            font-size: 1rem;
+            font-weight: 400;
+            letter-spacing: 1.5px;
+            text-transform: capitalize;
+        }
+
+        .info_button {
+            button {
+                a{
+                    color: currentColor;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    .info_pic {
+        img {
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+    }
+}

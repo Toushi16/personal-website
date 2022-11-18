@@ -1,0 +1,31 @@
+.jumbo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 940px;
+    background-image: url('https://assets.xboxservices.com/assets/b3/6e/b36ec1a2-bfd9-405b-93a3-0399e2b84fef.jpg?n=DOOM-Eternal_Sneaky-Slider-1084_Horde-Mode_1600x675_02.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+
+    .info {
+        margin-top: 130px;
+        
+        h1 {
+            padding: 50px;
+            width: 1000px;
+            font-size: 5rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        h2 {
+            font-size: 2rem;
+            letter-spacing: 1.2px;
+            text-transform: uppercase;
+            padding-bottom: 100px;
+        }
+    }
+}
