@@ -20,13 +20,13 @@ const NavBar = () => {
             </NavLink>
             <div className={styles.nav_list}>
                 <ul>
-                    <li onClick={toggleClass} className={isActive ? 'li-active' : ''}>
-                        <NavLink to='/'>
+                    <li>
+                        <NavLink exact activeClassName="active" to='/'>
                             home
                         </NavLink>
                     </li>
-                    <li onClick={toggleClass} className={isActive ? 'li-active' : ''}>
-                        <NavLink to='/Projects'>
+                    <li>
+                        <NavLink activeClassName="active" to='/Projects'>
                             projects
                         </NavLink>
                     </li>

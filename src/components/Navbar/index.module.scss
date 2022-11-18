@@ -49,11 +49,6 @@
             -webkit-transition: 0.85s;
         }
 
-        li-active {
-            color: red;
-            border: 1px solid black;
-        }
-
         li:hover {
             color: gray;
             cursor: pointer;
@@ -68,6 +63,16 @@
 
         a:hover {
             color: gray;
+        }
+
+        .active {
+            color: red;
+            border: 1px solid green;
+        }
+
+        .active a {
+            color: red;
+            border: 1px solid green;
         }
     }
 }
