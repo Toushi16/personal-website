@@ -7,14 +7,11 @@
     padding: 40px;
 
     .projects_wrapper {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 40px;
-        align-items: center;
-        justify-content: center;
+        max-width: 1024px;
+        margin: 0 auto;
 
         img {
-            height: 500px;
+            max-height: 550px;
             border-radius: 5px;
             box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
         }

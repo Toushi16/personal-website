@@ -1,8 +1,15 @@
 import styles from './index.module.scss';
 import { NavLink } from "react-router-dom";
 import CV from '../../images/Personal-img/DomenicoSeminaraCV.pdf';
+import { useState } from 'react';
 
 const NavBar = () => {
+    const [ active, SetActive ] = useState(false);
+
+    const handleClick = event => {
+        SetActive(current => !current)
+    };
+
     return (
         <div className={styles.navbar}>
             <NavLink to='/'>
@@ -13,12 +20,12 @@ const NavBar = () => {
             </NavLink>
             <div className={styles.nav_list}>
                 <ul>
-                    <li>
+                    <li onClick={handleClick} className={active ? 'li-active' : ''}>
                         <NavLink to='/'>
                             home
                         </NavLink>
                     </li>
-                    <li>
+                    <li onClick={handleClick} className={active ? 'li-active' : ''}>
                         <NavLink to='/Projects'>
                             projects
                         </NavLink>
