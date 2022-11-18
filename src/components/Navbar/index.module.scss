@@ -49,13 +49,14 @@
             -webkit-transition: 0.85s;
         }
 
+        li-active {
+            color: red;
+            border: 1px solid black;
+        }
+
         li:hover {
             color: gray;
             cursor: pointer;
-        }
-
-        .li-active {
-            color: red;
         }
 
         a {

@@ -4,10 +4,10 @@ import CV from '../../images/Personal-img/DomenicoSeminaraCV.pdf';
 import { useState } from 'react';
 
 const NavBar = () => {
-    const [ active, SetActive ] = useState(false);
+    const [ isActive, SetActive ] = useState(false);
 
-    const handleClick = event => {
-        SetActive(current => !current)
+    const toggleClass = () => {
+        SetActive(!isActive);
     };
 
     return (
@@ -20,12 +20,12 @@ const NavBar = () => {
             </NavLink>
             <div className={styles.nav_list}>
                 <ul>
-                    <li onClick={handleClick} className={active ? 'li-active' : ''}>
+                    <li onClick={toggleClass} className={isActive ? 'li-active' : ''}>
                         <NavLink to='/'>
                             home
                         </NavLink>
                     </li>
-                    <li onClick={handleClick} className={active ? 'li-active' : ''}>
+                    <li onClick={toggleClass} className={isActive ? 'li-active' : ''}>
                         <NavLink to='/Projects'>
                             projects
                         </NavLink>

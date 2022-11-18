@@ -1,7 +1,8 @@
 import styles from './index.module.scss';
 import projs from '../../utils/projs';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay } from 'swiper';
+import { Navigation } from 'swiper';
+import 'swiper/css/navigation';
 import "swiper/scss";
 
 export const Projects = () => {
@@ -14,12 +15,8 @@ export const Projects = () => {
                 grabCursor={true}
                 slidesPerGroup={1}
                 spaceBetween={10}
-                modules={[ Autoplay ]}
-                autoplay={{
-                    delay:5500,
-                    disableOnInteraction:false,
-                    pauseOnMouseEnter: true,
-                }}
+                modules={[Navigation]}
+                navigation
                 >
                 {
                     projs.map((el,i) => (
