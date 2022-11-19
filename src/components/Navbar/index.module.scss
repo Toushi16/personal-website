@@ -66,3 +66,45 @@
         }
     }
 }
+
+@media only screen and (max-width: 750px){
+    .navbar {
+        .title{
+            transform: scale(0.85);
+        }
+        .nav_list{
+            transform: scale(0.85);
+        }
+    }
+}
+
+@media only screen and (max-width: 630px){
+    .navbar {
+        .title{
+            transform: scale(0.8);
+        }
+        .nav_list{
+            transform: scale(0.8);
+        }
+    }
+}
+
+@media only screen and (max-width: 470px){
+    .navbar {
+        justify-content: center;
+        .title{
+            display: none;
+        }
+        .nav_list{
+            transform: scale(1);
+        }
+    }
+}
+
+@media only screen and (max-width: 470px){
+    .navbar {
+        .nav_list{
+            transform: scale(0.875);
+        }
+    }
+}

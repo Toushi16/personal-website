@@ -45,3 +45,11 @@
         }
     }
 }
+
+@media only screen and (max-width: 400px){
+    .footer {
+        .social_wrapper {
+            transform: scale(0.9);
+        }
+    }
+}
