@@ -1,15 +1,8 @@
 import styles from './index.module.scss';
 import { NavLink } from "react-router-dom";
 import CV from '../../images/Personal-img/DomenicoSeminaraCV.pdf';
-import { useState } from 'react';
 
 const NavBar = () => {
-    const [ isActive, SetActive ] = useState(false);
-
-    const toggleClass = () => {
-        SetActive(!isActive);
-    };
-
     return (
         <div className={styles.navbar}>
             <NavLink to='/'>
