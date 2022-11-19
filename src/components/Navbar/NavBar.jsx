@@ -21,12 +21,12 @@ const NavBar = () => {
             <div className={styles.nav_list}>
                 <ul>
                     <li>
-                        <NavLink exact activeClassName="active" to='/'>
+                        <NavLink to='/'>
                             home
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink activeClassName="active" to='/Projects'>
+                        <NavLink to='/Projects'>
                             projects
                         </NavLink>
                     </li>

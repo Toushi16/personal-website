@@ -38,3 +38,67 @@
         }
     }
 }
+
+@media only screen and (max-width: 1105px){
+    .projects {
+        .projects_wrapper{
+            max-width: 710px;
+
+            img {
+                max-height: 400px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 790px){
+    .projects {
+        .projects_wrapper{
+            max-width: 620px;
+
+            img {
+                max-height: 350px;
+            }
+        }
+
+        .projects_link {
+            transform: scale(0.9);
+            gap: 30px;
+        }
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .projects {
+        .projects_wrapper{
+            max-width: 520px;
+
+            img {
+                max-height: 300px;
+            }
+        }
+
+        .projects_link {
+            transform: scale(0.8);
+            gap: 30px;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .projects {
+        .projects_wrapper{
+            display: none;
+        }
+
+        .br {
+            margin-top: 0;
+        }
+
+        .projects_link {
+            flex-direction: column;
+            transform: scale(1);
+            gap: 20px;
+        }
+    }
+}
