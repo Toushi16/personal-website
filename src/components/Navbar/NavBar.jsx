@@ -1,6 +1,5 @@
 import styles from './index.module.scss';
 import { NavLink } from "react-router-dom";
-import CV from '../../images/Personal-img/DomenicoSeminaraCV.pdf';
 
 const NavBar = () => {
     return (
@@ -14,17 +13,16 @@ const NavBar = () => {
             <div className={styles.nav_list}>
                 <ul>
                     <li>
-                        <NavLink to='/'>
+                        <NavLink className={({isActive}) => isActive ? styles.active : ''} to='/'>
                             home
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to='/Projects'>
+                        <NavLink className={({isActive}) => isActive ? styles.active : ''} to='/Projects'>
                             projects
                         </NavLink>
                     </li>
-                    <li><a href={CV} download>curriculum</a></li>
-                    <li><a href="mailto:domenicoseminara2000@hotmail.com">mail</a></li>
+                    <li ><a href="mailto:domenicoseminara2000@hotmail.com">mail</a></li>
                 </ul>
             </div>
         </div>

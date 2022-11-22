@@ -44,7 +44,6 @@
         li {
             color: #353535;
             text-decoration: none;
-            letter-spacing: 1.5px;
             text-transform: capitalize;
             -webkit-transition: 0.85s;
         }
@@ -64,6 +63,13 @@
         a:hover {
             color: gray;
         }
+    }
+
+    .active {
+        padding-bottom: 5px;
+        border-bottom: 2px solid gray ;
+        color: gray !important;
+        -webkit-transition: 0s !important;
     }
 }
 

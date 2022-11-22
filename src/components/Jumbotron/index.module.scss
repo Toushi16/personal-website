@@ -29,3 +29,33 @@
         }
     }
 }
+
+@media only screen and (max-width: 1000px){
+    .jumbo {
+        .info {
+            transform: scale(0.78);
+        }
+    }
+}
+
+@media only screen and (max-width: 780px){
+    .jumbo {
+        .info {
+            h1 {
+                font-size: 3.5rem;
+                width: 550px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 561px){
+    .jumbo {
+        .info {
+            h1 {
+                font-size: 3rem;
+                width: 400px;
+            }
+        }
+    }
+}
