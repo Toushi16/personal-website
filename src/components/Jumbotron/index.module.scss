@@ -5,13 +5,16 @@
     justify-content: center;
     text-align: center;
     height: 940px;
-    background-image: url('https://assets.xboxservices.com/assets/b3/6e/b36ec1a2-bfd9-405b-93a3-0399e2b84fef.jpg?n=DOOM-Eternal_Sneaky-Slider-1084_Horde-Mode_1600x675_02.jpg');
+    background-position: center;
+    background-image: url('https://wallpapercave.com/wp/wp5587051.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment:fixed;
 
     .info {
         margin-top: 130px;
+        color: white;
+        text-shadow: 1px 2px 5px black;
         
         h1 {
             padding: 50px;
@@ -41,6 +44,7 @@
 @media only screen and (max-width: 780px){
     .jumbo {
         .info {
+            
             h1 {
                 font-size: 3.5rem;
                 width: 550px;
