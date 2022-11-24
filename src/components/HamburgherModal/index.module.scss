@@ -1,0 +1,60 @@
+.HamburgherModal {
+    margin-top: 130px;
+    display: flex;
+    height: 45px;
+    background-color: rgba($color: #353535, $alpha: 0.15);
+    align-items: center;
+
+    span {
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: red;
+    cursor: pointer;
+    }
+
+    ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style-type: none;
+
+        li {
+            color: #353535;
+            text-decoration: none;
+            text-transform: capitalize;
+            -webkit-transition: 0.85s;
+        }
+
+        li:hover {
+            color: gray;
+            cursor: pointer;
+        }
+
+        a {
+            color: #353535;
+            text-decoration: none;
+            letter-spacing: 1.5px;
+            -webkit-transition: 0.85s;
+        }
+
+        a:hover {
+            color: gray;
+        }
+
+        .active {
+            font-weight: 600;
+            padding-bottom: 5px;
+            border-bottom: 2px solid gray ;
+            color: gray !important;
+            -webkit-transition: 0s !important;
+        }
+    }
+}
+
+@media only screen and (min-width: 471px){
+    .HamburgherModal {
+        display: none;
+    }
+}
