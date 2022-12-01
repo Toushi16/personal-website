@@ -6,8 +6,10 @@ import { Home } from './pages/Home/Home.jsx';
 import { Projects } from './pages/Projects/Projects.jsx';
 
 function App() {
+
   return (
     <div className="App">
+      
       <BrowserRouter>
       <NavBar />
       <Routes>
